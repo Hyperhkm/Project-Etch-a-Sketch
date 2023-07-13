@@ -4,7 +4,7 @@ body {
     align-items: center; 
 }
 header {margin-bottom: 25px;}
-main div {
+#inputs{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,4 +20,4 @@ main button {
     display: grid;
     border: 1px solid black;
 }
-footer {margin-top: 30px;}
+footer {margin-top: 30px;} 
