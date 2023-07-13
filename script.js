@@ -2,12 +2,10 @@ const DEFAULT_SIZE = 16;
 const gridNumber = document.getElementById('sizeValue');
 const gridSlider = document.getElementById('gridSize')
 const clearButton = document.getElementById('clear');
-const rainbowButton = document.getElementById('rainbow');
 
 gridSlider.onmousemove = (e) => updateSize(e.target.value);
 gridSlider.onchange = (e) => changeSize(e.target.value);
 clearButton.onclick = () => clearGrid();
-rainbowButton.onclick = () => rainbowColor();
 
 function setCurrentSize (newSize) {currentSize = newSize;};
 function updateSize (value) {gridNumber.innerHTML = `${value} x ${value}`};
